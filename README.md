@@ -9,4 +9,4 @@ Dataset Documentation
 •	Collection Conditions & Process: To ensure feature variance, 15 short video clips (approx. 45-60 seconds each) were recorded using OBS Studio capturing internal system audio. In-game voice lines and music were muted to prevent data contamination. Variables introduced during collection included varying distances, weapon attachments (e.g., barrel stabilizers), environmental locations (open field vs. indoor cave to introduce reverb), and firing patterns (full-auto vs. burst).
 •	Cleanup & Preprocessing: The raw video files were batch-converted to audio using a Python script. A filtering mechanism was applied to slice the audio into 1-second chunks and discard chunks containing silence (volume below 0.01 threshold).
 These audio files are sliced into 1-second chunks, ready to be converted into Mel-spectrograms for machine learning tasks.
-# Apex Legends Gun Sound Classification Dataset
+
